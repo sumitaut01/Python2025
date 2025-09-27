@@ -17,3 +17,13 @@ print(b,c,d)
 #print(x+yy) does not work like this
 
 #'{}{}'.format(yy+x)
+
+
+#python does not have null or undefined
+#it has None
+
+x = None
+print(x)         # None
+print(x is None) # True
+
+print(type(x)) #<class 'NoneType'>
