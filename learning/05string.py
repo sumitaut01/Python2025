@@ -1,4 +1,5 @@
 # anything in single or double quotes
+from openpyxl.descriptors import String
 
 name="sumit"
 lastname='raut'
@@ -24,3 +25,6 @@ for i in range(3):
 print("-----")
 for i in range(2,3):
    print(name[i]) #m
+
+
+

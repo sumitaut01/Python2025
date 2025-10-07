@@ -1,5 +1,6 @@
-. Creating a Set
+# Creating a Set
 # Using curly braces
+#will not have index
 fruits = {"apple", "banana", "cherry"}
 print(fruits)         # {'banana', 'cherry', 'apple'}
 print(type(fruits))   # <class 'set'>

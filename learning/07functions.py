@@ -1,5 +1,4 @@
 
-
 def sayHi():
     print("hi")
 
@@ -14,3 +13,10 @@ def sumNum(num1, num2):
 
 
 print(sumNum(2,3)) #5
+
+
+# we can mention return type
+# None when void
+def multiply(num1, num2)->int:
+    c=num1*num2
+    return c
