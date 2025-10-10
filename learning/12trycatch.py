@@ -8,4 +8,3 @@ except:
 finally:
     print("executed finally")
 
-1

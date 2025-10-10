@@ -7,7 +7,7 @@ except ZeroDivisionError:
 else:
     print("This runs when no exception. No error, result =", x)
 finally:
-    print("Done")
+    print("Done.always runs")
 
 # This runs when no exception. No error, result = 5.0
 # Done

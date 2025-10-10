@@ -1,11 +1,12 @@
-
-
 #//dont require variable declaration type explicity
 print('hi')
 
 x=12
-
 print(x)
+
+#we can still declare it. putting string value in int in such case will jus give warning
+xx:int=12
+print(xx)
 
 yy='sumit'
 

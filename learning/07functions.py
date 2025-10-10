@@ -1,4 +1,5 @@
-
+# dont need self when outside function
+#needs self when inside class
 def sayHi():
     print("hi")
 

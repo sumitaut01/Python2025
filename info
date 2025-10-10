@@ -1,0 +1,28 @@
+pip install pylint  --- good habits
+pylint bad_code.py
+
+Output:
+************* Module bad_code
+bad_code.py:1:0: C0103: Constant name "a" doesn't conform to UPPER_CASE naming style (invalid-name)
+bad_code.py:2:0: C0103: Constant name "b" doesn't conform to UPPER_CASE naming style (invalid-name)
+------------------------------------------------------------------
+Your code has been rated at 6.67/10
+
+
+✅ It checks code quality, not just correctness.
+
+5. Configuration
+
+Create a .pylintrc file in your project root:
+
+pylint --generate-rcfile > .pylintrc
+
+
+Then customize:
+
+[MASTER]
+ignore=venv,tests
+[MESSAGES CONTROL]
+disable=C0114,C0115,C0116  # disable docstring warnings
+
+Now your whole team can follow the same style rules.

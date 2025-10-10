@@ -55,3 +55,19 @@ print(data1)
 data2=list(range(1,10,1))
 print(data2) #[1, 2, 3, 4, 5, 6, 7, 8, 9]
 
+
+
+data3=[1,2,3,4,5,6,7,8,9,10]
+print(data3[0])
+print(data3[-1])
+
+
+
+var = data3[1:3] # start from 1st index: go till 3-1
+print(var) #[2, 3]
+
+
+print(data3[1:10:2]) #[2, 4, 6, 8, 10]
+
+
+

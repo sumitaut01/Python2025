@@ -27,4 +27,7 @@ for i in range(2,3):
    print(name[i]) #m
 
 
+   print(name[:2]) #0 to 2-1
+
+
 

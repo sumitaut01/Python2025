@@ -1,0 +1,13 @@
+Use venv for environment isolation
+
+Follow PEP8 naming conventions
+
+Handle exceptions properly
+
+Use logging not print
+
+Parametrize data with .env or config files
+
+Use pytest + allure for test management
+
+Reuse utility functions, avoid duplicate logic

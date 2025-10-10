@@ -1,4 +1,4 @@
-# tuple is sme as list. However its immutable
+# tuple is same as list. However its immutable
 # ()
 
 #tuple cant be changed once assigned
@@ -14,3 +14,8 @@ print(type(data)) #<class 'list'>
 data=tuple(data)
 print(data)
 print(type(data)) #<class 'tuple'>
+
+
+data=([1,2],(3,4),"name")
+print(data) #([1, 2], (3, 4), 'name')
+print(type(data))#<class 'tuple'>
