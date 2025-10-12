@@ -1,5 +1,4 @@
 # comment single line
-
 """"
 hiiii
 hi
@@ -14,6 +13,19 @@ x="sumit"
 print(type(x)) #<class 'str'>
 x='sagar'
 print(type(x)) #<class 'str'>
+
+#multiline string variable
+xxx="""
+line 1 of string var
+line 2 of string var
+line 3 of string var
+"""
+
+yyy='''
+line 1 of string var
+line 2 of string var
+line 3 of string var
+'''
 
 
 

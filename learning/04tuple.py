@@ -19,3 +19,5 @@ print(type(data)) #<class 'tuple'>
 data=([1,2],(3,4),"name")
 print(data) #([1, 2], (3, 4), 'name')
 print(type(data))#<class 'tuple'>
+
+

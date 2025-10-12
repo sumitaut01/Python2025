@@ -1,3 +1,4 @@
+#unlike java str+int wont work
 
 # print(2025+"sumit")
 # Traceback (most recent call last):

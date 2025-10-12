@@ -8,7 +8,7 @@ class Demo:
         print("Object deleted")
 
 obj = Demo()
-del obj
+del obj #Object deleted
 
 
 # ⚠️ Use sparingly; Python’s garbage collector usually handles cleanup automatically.

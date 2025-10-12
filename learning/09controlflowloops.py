@@ -1,6 +1,6 @@
 # range()
 
-range(10)  # 0..10
+range(10)  # 0..9  excldes last
 
 print(list(range(10))) #[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 range(1,10) # 1..9
@@ -33,7 +33,7 @@ for i in range(20,0,-2): print(i)
 
 #while loop
 
-i=1;
+i=1
 while i<10:
 
     print(i)

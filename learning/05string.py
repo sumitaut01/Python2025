@@ -30,4 +30,14 @@ for i in range(2,3):
    print(name[:2]) #0 to 2-1
 
 
+   print(name.upper())
+   print(name.lower())
+   print(name.capitalize()) #Sumit
+   print(len(name)) #5
+
+   print('   sumit    raut   '.strip())  #sumit    raut
+
+   print('sumit'*3) #sumitsumitsumit
+
+
 

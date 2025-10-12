@@ -1,5 +1,4 @@
 
-
 str="sumit";
 print(str)
 
@@ -22,6 +21,13 @@ print(str+"new") #sumit rautnew
 print(str)#sumit raut
 
 
+#join
+print("*"*3)
+mylist=["a",'b','c']
+print(" ".join(mylist))
+
+
+
 
 #slicing
 str2=('abcdedgh')
@@ -42,6 +48,9 @@ print(y) #['A', 'B', 'C', 'D']
 
 print(y[0]) #A
 print(y[-1]) #D
+
+mylistx = [1, 2, 3]
+print(" ".join(map(str, mylistx)))  # → 1 2 3
 
 
 

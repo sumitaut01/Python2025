@@ -2,7 +2,7 @@ from random import shuffle
 
 data="this is spart 1234"
 
-print('is' in data) #true
+print('is' in data) #True
 print(data.find('is')) #2
 
 print(data[0]) #t

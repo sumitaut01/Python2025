@@ -5,3 +5,6 @@
 a = [1,2,3]
 del a[1]
 del a
+
+# print(a)
+# NameError: name 'a' is not defined

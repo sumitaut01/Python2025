@@ -1,11 +1,20 @@
-for i in range(1,10):
+
+
+str="this is sparta"
+for i in str[::-1]:
     print(i)
 
-for i in range(1,10,2):
-    print(i)
-
-
-x="sumit"
-print(x[0]) #s
-print(x[-1]) #t
-
+# a
+# t
+# r
+# a
+# p
+# s
+#
+# s
+# i
+#
+# s
+# i
+# h
+# t

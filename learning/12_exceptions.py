@@ -1,5 +1,3 @@
-
-
 try:
     x = 5 / 1
 except ZeroDivisionError:

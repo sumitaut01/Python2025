@@ -1,6 +1,4 @@
-
-item=0;
-
+item=0
 if item<1:
     raise ValueError("item is less than 1")
 

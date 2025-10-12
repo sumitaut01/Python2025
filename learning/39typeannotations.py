@@ -1,5 +1,4 @@
 
-
 data='sumit'
 data1:str='sumit'
 data1=12  #Expected type 'str', got 'int' instead   Its just a warning

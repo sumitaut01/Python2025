@@ -1,5 +1,7 @@
 #//dont require variable declaration type explicity
+#String can be in single or double
 print('hi')
+print("hi")
 
 x=12
 print(x)
@@ -28,3 +30,12 @@ print(x)         # None
 print(x is None) # True
 
 print(type(x)) #<class 'NoneType'>
+
+
+
+print(5/2) #2.5
+print(5//2) #2
+
+print(type(5/2)) #<class 'float'>
+print(type(5//2)) #<class 'int'>
+

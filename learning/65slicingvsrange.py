@@ -28,7 +28,6 @@ print(nums[::-1])    # [60, 50, 40, 30, 20, 10]
 
 
 # What is range() in Python?
-#
 # range() is a built-in immutable sequence used to represent a range of integers — often used in loops.
 #
 # Syntax:
@@ -54,11 +53,9 @@ for i in range(1,4):   # range
 
 
 # Output:
-#
 # 1 b
 # 2 c
 # 3 d
-#
 #
 # ✅ range(1,4) behaves similar to indices used in data[1:4].
 

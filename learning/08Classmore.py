@@ -1,6 +1,5 @@
 
 # pass just way to avoid syntax error
-
 class MyClass:
     pass
 
@@ -8,7 +7,6 @@ print(MyClass()) #<__main__.myclass object at 0x000001EA101452B0>
 
 c=MyClass()
 print(c) #<__main__.myclass object at 0x000001647F2C91D0>
-
 
 class MyDog:
     species = 'Mammal' #Class level. common for all instances

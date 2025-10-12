@@ -1,8 +1,9 @@
 # similar to array
 
 value=[ 1,2,3]
-
 print(len(value)) #3
+
+
 
 print(value[0])#1
 
@@ -11,8 +12,10 @@ value1=[1, "sumit","neha"]
 print(value1[1])#sumit
 
 
+#reverse index allowed
 print(value[-1])#3
 
+#slicing ( start index:end index (-1):increment
 print(value[0:2])#[1,2]
 
 value[0]=0
@@ -69,5 +72,22 @@ print(var) #[2, 3]
 
 print(data3[1:10:2]) #[2, 4, 6, 8, 10]
 
+
+print(range(0,10))
+list=[i for i in range(0,10)]
+print(list) #[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
+
+
+def myfunc(*args):
+    mylist = []
+    for arg in args:
+        if arg % 2 == 0:
+            mylist.append(arg)
+    return mylist
+
+
+print(myfunc(1,2,3,4,5,6,7,8,9,10))
 
 
